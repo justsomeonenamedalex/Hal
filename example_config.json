@@ -1,0 +1,7 @@
+{
+  "BOT_TOKEN": "token",
+  "COMMAND_PREFIX": "hal!",
+  "DEFAULT_ACTIVITY_MESSAGE": "Taking over the world",
+  "LOAD_COGS": true,
+  "INVITE": "link"
+}
