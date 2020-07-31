@@ -9,6 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class chatBot:
     def __init__(self, file: str):
+        self.model = file[:-4]
         DIR_PATH = os.path.dirname(os.path.abspath(__file__))
         path = DIR_PATH + "\\" + file
         f = open(path, "r", errors="ignore")

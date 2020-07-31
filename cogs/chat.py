@@ -28,6 +28,10 @@ class Chat(commands.Cog):
     async def train(self, ctx, *, file):
         self.bot = chatBot(file)
 
+    @commands.command()
+    async def model(self, ctx):
+        await ctx.send(self.bot.model)
+
 
 def setup(client):
     client.add_cog(Chat(client))
